@@ -74,16 +74,16 @@ Useful links.
   </row>
   <row>
     <key width="1.5" c="loc tab" ne="0" se="loc esc"/>
-    <key width="0.85" c="q" ne="1" se="loc esc" sw="[q]:':q',enter"/>
-    <key width="0.85" c="w" nw="~" ne="2" sw="[w]:':w',enter"/>
-    <key width="0.85" c="e" nw="!" ne="3" sw="\#" se="loc €"/>
-    <key width="0.85" c="r" ne="4" sw="$"/>
-    <key width="0.85" c="t" ne="5" sw="%"/>
-    <key width="0.85" c="y" ne="6" sw="^"/>
-    <key width="0.85" c="u" ne="7" sw="&amp;"/>
-    <key width="0.85" c="i" ne="8" sw="*"/>
-    <key width="0.85" c="o" ne="9" sw="(" se=")"/>
-    <key width="0.85" c="p" ne="0"/>
+    <key width="0.85" c="q" se="loc esc" sw="[q]:':q',enter"/>
+    <key width="0.85" c="w" sw="[w]:':w',enter"/>
+    <key width="0.85" c="e" se="loc €"/>
+    <key width="0.85" c="r"/>
+    <key width="0.85" c="t"/>
+    <key width="0.85" c="y"/>
+    <key width="0.85" c="u"/>
+    <key width="0.85" c="i"/>
+    <key width="0.85" c="o"/>
+    <key width="0.85" c="p"/>
   </row>
   <row>
     <key shift="0.5" c="a" nw="loc tab" ne="`"/>
@@ -123,7 +123,7 @@ Useful links.
   <row height="0.75">
     <key key0="redo" sw=""/>
     <key key0="🐧:meta" se="🐧"/>
-    <key key0="alt" se="#"/>
+    <key key0="alt" se=""/>
     <key key0="" se=""/>
     <key key0="&quot;"/>
     <key key0="'"/>
