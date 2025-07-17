@@ -41,21 +41,24 @@ Useful links.
 
   https://github.com/Julow/Unexpected-Keyboard/blob/master/CONTRIBUTING.md#adding-symbols-to-shift-fn-compose-and-other-modifiers
 
+  https://github.com/Julow/Unexpected-Keyboard/blob/master/doc/Possible-key-values.md
+
+  https://github.com/Julow/Unexpected-Keyboard/blob/master/doc/Custom-layouts.md
 -->
-<keyboard name="QWERTY (iacchUS)" script="latin">
+<keyboard name="QWERTY (iacchUS)" script="latin" embedded_number_row="true" bottom_row="false">
   <row height="0.75">
-    <key width="0.833333" key0="f1" se="!"/>
-    <key width="0.833333" key0="f2" se="@"/>
-    <key width="0.833333" key0="f3" se="#"/>
-    <key width="0.833333" key0="f4" se="$"/>
-    <key width="0.833333" key0="f5" se="%"/>
-    <key width="0.833333" key0="f6" sw="^"/>
-    <key width="0.833333" key0="f7" sw="&amp;"/>
-    <key width="0.833333" key0="f8" sw="*"/>
-    <key width="0.833333" key0="f9" sw="("/>
-    <key width="0.833333" key0="f10" sw=")"/>
-    <key width="0.833333" key0="f11" sw=")"/>
-    <key width="0.833333" key0="f12" sw=")"/>
+    <key width="0.833333" key0="f1"/>
+    <key width="0.833333" key0="f2"/>
+    <key width="0.833333" key0="f3"/>
+    <key width="0.833333" key0="f4"/>
+    <key width="0.833333" key0="f5"/>
+    <key width="0.833333" key0="f6"/>
+    <key width="0.833333" key0="f7"/>
+    <key width="0.833333" key0="f8"/>
+    <key width="0.833333" key0="f9"/>
+    <key width="0.833333" key0="f10"/>
+    <key width="0.833333" key0="f11"/>
+    <key width="0.833333" key0="f12"/>
   </row>
   <row height="0.75">
     <key key0="1" se="!"/>
@@ -102,21 +105,47 @@ Useful links.
     <key c="b" ne="\?" sw="/"/>
     <key c="n" ne=":" sw=";"/>
     <key c="m" ne="&quot;" sw="'"/>
-    <key width="1.5" c="backspace" ne="delete"/>
+    <!-- <key width="1.5" c="backspace" ne="delete"/> -->
+    <key width="1.5" key0="enter" key1="loc voice_typing" key2="action"/>
+  </row>
+  <row height="0.75">
+    <key key0="loc compose" se="!"/>
+    <key key0="meta" se="🐧"/>
+    <key key0="undo" se=""/>
+    <key key0="redo" sw=""/>
+    <key key0="alt" se="#"/>
+    <key key0="4" se="$"/>
+    <key key0="&lt;" sw=""/>
+    <key key0="&gt;" sw=""/>
+    <key width="1" c="delete_word" ne="delete"/>
+    <key width="1" c="backspace" ne="delete"/>
   </row>
   <row height="0.75">
     <key key0="1" se="!"/>
     <key key0="meta" se="🐧"/>
     <key key0="alt" se="#"/>
     <key key0="4" se="$"/>
-    <key key0="undo" se=""/>
-    <key key0="redo" sw=""/>
-    <key key0="cut" sw="ｃｕｔ"/>
-    <key key0="copy" sw="ｃｐｙ"/>
-    <key key0="paste" sw="ｐｓｔ"/>
-    <key key0="selectAll" sw="ｓｌｃ"/>
+    <key key0=""/>
+    <key key0=""/>
+    <key width="0.75" key0="cut" sw=""/>
+    <key width="0.75" key0="home"/>
+    <key width="0.75" key0="up" sw=""/>
+    <key width="0.75" key0="end"/>
+    <key width="0.5" key0="cut" sw=""/>
+    <key width="0.5" key0="paste" sw="ｐｓｔ"/>
   </row>
-  <!--<row height="0.95">
+  <row height="0.75">
+    <key width="1.7" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
+    <key width="1.1" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
+    <key width="0.5" key0="cut" sw=""/>
+    <key width="3.45" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right"/>
+    <key width="0.75" key0="left" sw=""/>
+    <key width="0.75" key0="down" key1="loc home" key2="loc page_up" key3="loc end" key4="loc page_down"/>
+    <key width="0.75" key0="right" sw=""/>
+    <key width="0.5" key0="copy" sw="ｃｐｙ"/>
+    <key width="0.5" key0="selectAll" sw=""/>
+  </row>
+  <!--<row height="0.75">
     <key width="1.7" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
     <key width="1.1" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
     <key width="4.4" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right"/>
