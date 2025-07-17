@@ -112,9 +112,9 @@ Useful links.
     <key key0="undo" se=""/>
     <key key0="loc compose" se="!"/>
     <key key0="" se=""/>
-    <key key0="{┊}:'{}',left" sw=""/>
-    <key key0="[┊]:'[],left'" ne="(│):'()',left"/>
-    <key key0="(┊):'()',left" ne="()│:'()'"/>
+    <key key0="{┊}:'{}',left" ne="{}┊:'{}'" sw="{" se="}"/>
+    <key key0="[┊]:'[]',left" ne="[]┊:'[]'" sw="[" se="]"/>
+    <key key0="(┊):'()',left" ne="()┊:'()'" sw="(" se=")"/>
     <key key0="&lt;" sw=""/>
     <key key0="&gt;" sw=""/>
     <key width="1" c="delete_word" ne="delete"/>
