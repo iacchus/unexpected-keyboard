@@ -74,8 +74,8 @@ Useful links.
   </row>
   <row>
     <key width="1.5" c="loc tab" ne="0" se="loc esc"/>
-    <key width="0.85" c="q" ne="1" se="loc esc"/>
-    <key width="0.85" c="w" nw="~" ne="2" sw="\@"/>
+    <key width="0.85" c="q" ne="1" se="loc esc" sw="[q]:':q',enter"/>
+    <key width="0.85" c="w" nw="~" ne="2" sw="[w]:':w',enter"/>
     <key width="0.85" c="e" nw="!" ne="3" sw="\#" se="loc €"/>
     <key width="0.85" c="r" ne="4" sw="$"/>
     <key width="0.85" c="t" ne="5" sw="%"/>
@@ -100,7 +100,7 @@ Useful links.
     <key width="1.5" c="shift" ne="loc capslock"/>
     <key c="z"/>
     <key c="x" ne="loc †"/>
-    <key c="c" ne="&lt;" sw="."/>
+    <key c="c" ne="&lt;" sw="." key4="C-c:ctrl,c"/>
     <key c="v" ne="&gt;" sw=","/>
     <key c="b" ne="\?" sw="/"/>
     <key c="n" ne=":" sw=";"/>
@@ -113,8 +113,8 @@ Useful links.
     <key key0="loc compose" se="!"/>
     <key key0="" se=""/>
     <key key0="" sw=""/>
-    <key key0="alt" se="#"/>
-    <key key0="4" se="$"/>
+    <key key0="" se=""/>
+    <key key0="" se=""/>
     <key key0="&lt;" sw=""/>
     <key key0="&gt;" sw=""/>
     <key width="1" c="delete_word" ne="delete"/>
@@ -122,11 +122,11 @@ Useful links.
   </row>
   <row height="0.75">
     <key key0="redo" sw=""/>
-    <key key0="meta" se="🐧"/>
+    <key key0="🐧:meta" se="🐧"/>
     <key key0="alt" se="#"/>
-    <key key0="4" se="$"/>
-    <key key0=""/>
-    <key key0=""/>
+    <key key0="" se=""/>
+    <key key0="&quot;"/>
+    <key key0="'"/>
     <key width="0.75" key0="cut" sw=""/>
     <key width="0.75" key0="home"/>
     <key width="0.75" key0="up" sw=""/>
