@@ -117,8 +117,8 @@ Useful links.
     <key key0="(┊):'()',left" ne="()┊:'()'" sw="(" se=")"/>
     <key key0="&lt;" sw=""/>
     <key key0="&gt;" sw=""/>
-    <key width="1" c="delete_word" ne="delete"/>
-    <key width="1" c="backspace" ne="delete"/>
+    <key width="1" c="delete_word" ne="forward_delete_word"/>
+    <key width="1" c="backspace" ne="delete" sw="xx:backspace,delete"/>
   </row>
   <row height="0.75">
     <key key0="redo" sw=""/>
