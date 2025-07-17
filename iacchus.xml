@@ -70,16 +70,17 @@ Useful links.
     <key key0="0" sw=")"/>
   </row>
   <row>
-    <key c="q" ne="1" se="loc esc"/>
-    <key c="w" nw="~" ne="2" sw="\@"/>
-    <key c="e" nw="!" ne="3" sw="\#" se="loc €"/>
-    <key c="r" ne="4" sw="$"/>
-    <key c="t" ne="5" sw="%"/>
-    <key c="y" ne="6" sw="^"/>
-    <key c="u" ne="7" sw="&amp;"/>
-    <key c="i" ne="8" sw="*"/>
-    <key c="o" ne="9" sw="(" se=")"/>
-    <key c="p" ne="0"/>
+    <key width="1.5" c="loc tab" ne="0" se="loc esc"/>
+    <key width="0.85" c="q" ne="1" se="loc esc"/>
+    <key width="0.85" c="w" nw="~" ne="2" sw="\@"/>
+    <key width="0.85" c="e" nw="!" ne="3" sw="\#" se="loc €"/>
+    <key width="0.85" c="r" ne="4" sw="$"/>
+    <key width="0.85" c="t" ne="5" sw="%"/>
+    <key width="0.85" c="y" ne="6" sw="^"/>
+    <key width="0.85" c="u" ne="7" sw="&amp;"/>
+    <key width="0.85" c="i" ne="8" sw="*"/>
+    <key width="0.85" c="o" ne="9" sw="(" se=")"/>
+    <key width="0.85" c="p" ne="0"/>
   </row>
   <row>
     <key shift="0.5" c="a" nw="loc tab" ne="`"/>
@@ -102,6 +103,18 @@ Useful links.
     <key c="n" ne=":" sw=";"/>
     <key c="m" ne="&quot;" sw="'"/>
     <key width="1.5" c="backspace" ne="delete"/>
+  </row>
+  <row height="0.75">
+    <key key0="1" se="!"/>
+    <key key0="meta" se="🐧"/>
+    <key key0="alt" se="#"/>
+    <key key0="4" se="$"/>
+    <key key0="undo" se=""/>
+    <key key0="redo" sw=""/>
+    <key key0="cut" sw="ｃｕｔ"/>
+    <key key0="copy" sw="ｃｐｙ"/>
+    <key key0="paste" sw="ｐｓｔ"/>
+    <key key0="selectAll" sw="ｓｌｃ"/>
   </row>
   <!--<row height="0.95">
     <key width="1.7" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
