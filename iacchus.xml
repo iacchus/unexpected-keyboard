@@ -109,10 +109,10 @@ Useful links.
     <key width="1.5" key0="enter" key1="loc voice_typing" key2="action"/>
   </row>
   <row height="0.75">
-    <key key0="loc compose" se="!"/>
-    <key key0="meta" se="🐧"/>
     <key key0="undo" se=""/>
-    <key key0="redo" sw=""/>
+    <key key0="loc compose" se="!"/>
+    <key key0="" se=""/>
+    <key key0="" sw=""/>
     <key key0="alt" se="#"/>
     <key key0="4" se="$"/>
     <key key0="&lt;" sw=""/>
@@ -121,7 +121,7 @@ Useful links.
     <key width="1" c="backspace" ne="delete"/>
   </row>
   <row height="0.75">
-    <key key0="1" se="!"/>
+    <key key0="redo" sw=""/>
     <key key0="meta" se="🐧"/>
     <key key0="alt" se="#"/>
     <key key0="4" se="$"/>
