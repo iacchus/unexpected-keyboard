@@ -111,7 +111,7 @@ Useful links.
   <row height="0.75">
     <key key0="undo" se=""/>
     <key key0="loc compose" se="!"/>
-    <key key0="" se=""/>
+    <key key0=";" se=""/>
     <key key0="{┊}:'{}',left" ne="{}┊:'{}'" sw="{" se="}"/>
     <key key0="[┊]:'[]',left" ne="[]┊:'[]'" sw="[" se="]"/>
     <key key0="(┊):'()',left" ne="()┊:'()'" sw="(" se=")"/>
@@ -123,8 +123,8 @@ Useful links.
   <row height="0.75">
     <key key0="redo" sw=""/>
     <key key0="🐧:meta"/>
-    <key key0="" se=""/>
-    <key key0="" se=""/>
+    <key key0="," se=""/>
+    <key key0="." se=""/>
     <key key0="&quot;"/>
     <key key0="'"/>
     <key width="0.75" key0="cut" sw=""/>
