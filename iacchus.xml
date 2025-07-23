@@ -72,11 +72,13 @@ Useful links.
     <key key0="9" sw="("/>
     <key key0="0" sw=")"/>
   </row>
+      <key c="w" nw="~" ne="2" sw="\@"/>
+    <key c="e" nw="!" ne="3" sw="\#" se="loc €"/>
   <row>
     <key width="1.5" c="tab" se="loc esc"/>
     <key width="0.85" c="q" sw="[q]:':q',enter"/>
-    <key width="0.85" c="w" sw="[w]:':w',enter"/>
-    <key width="0.85" c="e" se="loc €"/>
+    <key width="0.85" c="w" ne="~" sw="[w]:':w',enter"/>
+    <key width="0.85" c="e" ne="!" se="loc €"/>
     <key width="0.85" c="r"/>
     <key width="0.85" c="t"/>
     <key width="0.85" c="y"/>
