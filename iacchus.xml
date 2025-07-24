@@ -92,8 +92,8 @@ Useful links.
     <key c="f"/>
     <key c="g" ne="-" sw="_"/>
     <key c="h" ne="=" sw="+"/>
-    <key c="j" se="}" sw="{"/>
-    <key c="k" sw="[" se="]"/>
+    <key c="j" se="" sw=""/>
+    <key c="k" sw="" se=""/>
     <key c="l" ne="|" sw="\\"/>
   </row>
   <row height="0.75">
