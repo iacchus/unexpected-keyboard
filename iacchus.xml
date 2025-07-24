@@ -61,7 +61,7 @@ Useful links.
     <key width="0.833333" key0="f11"/>
     <key width="0.833333" key0="f12"/>
   </row>
-  <row height="0.75">
+  <row height="0.5">
     <key key0="1" ne="!"/>
     <key key0="2" ne="@"/>
     <key key0="3" ne="#"/>
@@ -111,32 +111,34 @@ Useful links.
   </row>
   <!-- <row height="0.75"> -->
   <row height="0.5">
-    <key key0="undo" se=""/>
-    <key key0="loc compose" se="!"/>
+    <key width="0.5" key0="undo" se=""/>
+    <key width="0.5" key0="loc compose" se="!"/>
+    <key width="1" key0="" sw=""/>
+    <key width="0.75" key0="" sw=""/>
+    <key width="0.75" key0="" sw=""/>
     <key width="0.75" key0=";" se=""/>
     <key width="0.75" key0="{┊}:'{}',left" ne="{}┊:'{}'" sw="{" se="}"/>
     <key width="0.75" key0="[┊]:'[]',left" ne="[]┊:'[]'" sw="[" se="]"/>
     <key width="0.75" key0="(┊):'()',left" ne="()┊:'()'" sw="(" se=")"/>
     <key width="0.75" key0="&lt;" sw=""/>
     <key width="0.75" key0="&gt;" sw=""/>
-    <key width="0.75" key0="" sw=""/>
-    <key width="0.75" key0="" sw=""/>
     <key width="1" c="delete_word" ne="forward_delete_word"/>
     <key width="1" c="backspace" ne="delete" sw="xx:backspace,delete"/>
   </row>
   <!-- <row height="0.75"> -->
   <row height="0.5">
-    <key key0="redo" sw=""/>
+    <key width="0.5" key0="redo" sw=""/>
     <key key0="🐧:meta"/>
+    <key width="0.75" key0="" sw=""/>
+    <key width="0.75" key0="" sw=""/>
+    <key width="0.75" key0="" sw=""/>
     <key width="0.75" key0="," se=""/>
     <key width="0.75" key0="." se=""/>
     <key width="0.75" key0="&quot;┊&quot;:&quot;,&quot;,left" ne="&quot;" sw="“┊”:“”,left" />
     <key width="0.75" key0="&apos;┊&apos;:\'\',left" ne="&apos;"/>
-    <key width="0.75" key0="" sw=""/>
-    <key width="1" key0="" sw=""/>
     <key width="0.75" key0="home"/>
     <key width="0.75" key0="up" ne="loc page_up"/>
-    <key width="0.75" key0="end"/>
+    <key width="0.75" key0="end" ne="⇲_:end,space"/>
     <key width="0.5" key0="cut" sw=""/>
     <key width="0.5" key0="paste" sw="ｐｓｔ"/>
   </row>
