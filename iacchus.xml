@@ -125,8 +125,8 @@ Useful links.
     <key key0="🐧:meta"/>
     <key key0="," se=""/>
     <key key0="." se=""/>
-    <key key0="&quot;"/>
-    <key key0="'"/>
+    <key key0="&quot;┊&quot;:&quot;,&quot;,left" ne="&quot;" sw="“┊”:“”,left" />
+    <key key0="&apos;┊&apos;:\'\',left" ne="&apos;"/>
     <key width="0.75" key0="cut" sw=""/>
     <key width="0.75" key0="home"/>
     <key width="0.75" key0="up" sw=""/>
