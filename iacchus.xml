@@ -95,15 +95,15 @@ Useful links.
     <key c="h" ne="=" sw="+"/>
     <key c="j" se="" sw=""/>
     <key c="k" sw="" se=""/>
-    <key c="l" ne="|" sw="\\"/>
+    <key c="l" ne="|" sw=""/>
   </row>
   <row height="0.75">
     <key width="1.5" c="shift" ne="loc capslock"/>
     <key c="z"/>
     <key c="x" ne="loc †"/>
-    <key c="c" ne="&lt;" sw="." key4="C-c:ctrl,c"/>
-    <key c="v" ne="&gt;" sw=","/>
-    <key c="b" ne="\?" sw="/"/>
+    <key c="c" sw="" key4="C-c:ctrl,c"/>
+    <key c="v" sw=""/>
+    <key c="b" ne="\?" sw=""/>
     <key c="n" ne=":" sw=";"/>
     <key c="m" ne="&quot;" sw="'"/>
     <!-- <key width="1.5" c="backspace" ne="delete"/> -->
@@ -115,8 +115,8 @@ Useful links.
     <key width="0.5" key0="loc compose" se="!"/>
     <key width="1" key0="" sw=""/>
     <key width="0.75" key0="" sw=""/>
-    <key width="0.75" key0="" sw=""/>
-    <key width="0.75" key0=";" se=""/>
+    <key width="0.75" key0=":" sw=""/>
+    <key width="0.75" key0=";" ne=":"/>
     <key width="0.75" key0="{┊}:'{}',left" ne="{}┊:'{}'" sw="{" se="}"/>
     <key width="0.75" key0="[┊]:'[]',left" ne="[]┊:'[]'" sw="[" se="]"/>
     <key width="0.75" key0="(┊):'()',left" ne="()┊:'()'" sw="(" se=")"/>
@@ -129,7 +129,7 @@ Useful links.
   <row height="0.5">
     <key width="0.5" key0="redo" sw=""/>
     <key key0="🐧:meta"/>
-    <key width="0.75" key0="" sw=""/>
+    <key width="0.75" key0="/" ne="\\"/>
     <key width="0.75" key0="" sw=""/>
     <key width="0.75" key0="" sw=""/>
     <key width="0.75" key0="," se=""/>
