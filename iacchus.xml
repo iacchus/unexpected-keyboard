@@ -135,7 +135,7 @@ Useful links.
     <key width="0.75" key0="," se=""/>
     <key width="0.75" key0="." se=""/>
     <key width="0.75" key0="&quot;┊&quot;:&quot;,&quot;,left" ne="&quot;" sw="“┊”:“”,left" />
-    <key width="0.75" key0="&apos;┊&apos;:\'\',left" ne="&apos;"/>
+    <key width="0.75" key0="&apos;┊&apos;:\'\',left" ne="&apos;" sw="`┊`:``,left"/>
     <key width="0.75" key0="home"/>
     <key width="0.75" key0="up" ne="loc page_up"/>
     <key width="0.75" key0="end" ne="⇲_:end,space"/>
