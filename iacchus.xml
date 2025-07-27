@@ -112,8 +112,9 @@ Useful links.
   <!-- <row height="0.75"> -->
   <row height="0.5">
     <key width="0.5" key0="undo" se=""/>
+    <key width="0.5" key0="change_method" sw=""/>
+    <key width="0.5" key0="config" sw=""/>
     <key width="0.5" key0="loc compose" se="!"/>
-    <key width="1" key0="" sw=""/>
     <key width="0.75" key0="" sw=""/>
     <key width="0.75" key0=":" sw=""/>
     <key width="0.75" key0=";" ne=":"/>
