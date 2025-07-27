@@ -99,7 +99,7 @@ Useful links.
   </row>
   <row height="0.75">
     <key width="1.5" c="shift" ne="loc capslock"/>
-    <key c="z"/>
+    <key c="z" sw="ｅｘｔ:meta,shift,E"/>
     <key c="x" ne="loc †"/>
     <key c="c" sw="C-c:ctrl,c"/>
     <key c="v" sw=""/>
