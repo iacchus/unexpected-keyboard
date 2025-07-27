@@ -75,8 +75,8 @@ Useful links.
   </row>
   <row height="0.75">
     <key width="1.5" c="tab" se="loc esc"/>
-    <key width="0.85" c="q" sw="[q]:':q',enter"/>
-    <key width="0.85" c="w" ne="~" sw="[w]:':w',enter"/>
+    <key width="0.85" c="q" sw="[q]:esc,':q',enter"/>
+    <key width="0.85" c="w" ne="~" sw="[w]:esc,':w',enter"/>
     <key width="0.85" c="e" ne="!" se="loc €"/>
     <key width="0.85" c="r"/>
     <key width="0.85" c="t"/>
