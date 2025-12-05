@@ -46,8 +46,9 @@ Useful links.
   https://github.com/Julow/Unexpected-Keyboard/blob/master/doc/Custom-layouts.md
 -->
 <keyboard name="QWERTY (iacchUS)" script="latin" embedded_number_row="true" bottom_row="false">
+  <row height="1">
   <!-- <row height="0.75"> -->
-  <row height="0.5">
+  <!-- <row height="0.5"> -->
     <key width="0.833333" key0="f1"/>
     <key width="0.833333" key0="f2"/>
     <key width="0.833333" key0="f3"/>
@@ -61,7 +62,9 @@ Useful links.
     <key width="0.833333" key0="f11"/>
     <key width="0.833333" key0="f12"/>
   </row>
-  <row height="0.5">
+  <row height="1">
+  <!-- <row height="0.75"> -->
+  <!-- <row height="0.5"> -->
     <key key0="1" ne="!"/>
     <key key0="2" ne="@"/>
     <key key0="3" ne="#"/>
@@ -73,7 +76,9 @@ Useful links.
     <key key0="9" ne="("/>
     <key key0="0" ne=")"/>
   </row>
-  <row height="0.75">
+  <row height="1">
+  <!-- <row height="0.75"> -->
+  <!-- <row height="0.5"> -->
     <key width="1.5" c="tab" se="loc esc"/>
     <key width="0.85" c="q" sw="[q]:esc,':q',enter"/>
     <key width="0.85" c="w" ne="~" sw="[w]:esc,':w',enter"/>
@@ -86,7 +91,9 @@ Useful links.
     <key width="0.85" c="o" nw="ö" ne="ó" sw="ŏ" se="õ" />
     <key width="0.85" c="p"/>
   </row>
-  <row height="0.75">
+  <row height="1">
+  <!-- <row height="0.75"> -->
+  <!-- <row height="0.5"> -->
     <key shift="0.5" c="a" nw="à" ne="á" sw="ā" se="ã" />
     <key c="s" nw="ś" ne="loc §" sw="loc ß" se="ṣ" />
     <key c="d" sw="C-d:ctrl,d" se="ḍ" />
@@ -97,7 +104,9 @@ Useful links.
     <key c="k" sw="" se=""/>
     <key c="l" nw="ḹ" ne="" sw="ḻ" se="ḷ"/>
   </row>
-  <row height="0.75">
+  <row height="1">
+  <!-- <row height="0.75"> -->
+  <!-- <row height="0.5"> -->
     <key width="1.5" c="shift" ne="loc capslock"/>
     <key c="z" sw="ｅｘｔ:meta,shift,E"/>
     <key c="x" ne="loc †"/>
@@ -109,8 +118,9 @@ Useful links.
     <!-- <key width="1.5" c="backspace" ne="delete"/> -->
     <key width="1.5" key0="enter" key1="loc voice_typing" key2="action"/>
   </row>
+  <row height="1">
   <!-- <row height="0.75"> -->
-  <row height="0.5">
+  <!-- <row height="0.5"> -->
     <key width="0.5" key0="undo" se=""/>
     <key width="0.5" key0="change_method" sw=""/>
     <key width="0.5" key0="config" sw=""/>
@@ -126,8 +136,9 @@ Useful links.
     <key width="1" c="delete_word" ne="forward_delete_word"/>
     <key width="1" c="backspace" ne="delete" sw="xx:backspace,delete"/>
   </row>
+  <row height="1">
   <!-- <row height="0.75"> -->
-  <row height="0.5">
+  <!-- <row height="0.5"> -->
     <key width="0.5" key0="redo" sw=""/>
     <key key0="🐧:meta"/>
     <key width="0.75" key0="/" ne="\\" sw="|" />
@@ -143,8 +154,9 @@ Useful links.
     <key width="0.5" key0="cut" sw=""/>
     <key width="0.5" key0="paste" sw="ｐｓｔ"/>
   </row>
-  <!-- <row height="0.75"> -->
-  <row height="0.5">
+  <row height="1">
+  <row height="0.75">
+  <!-- <row height="0.5"> -->
     <key width="1.5" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
     <key width="1.1" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
     <key width="1" key0="alt" sw=""/>
