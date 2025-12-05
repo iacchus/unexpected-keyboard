@@ -155,7 +155,7 @@ Useful links.
     <key width="0.5" key0="paste" sw="ｐｓｔ"/>
   </row>
   <row height="1">
-  <row height="0.75">
+  <!-- <row height="0.75"> -->
   <!-- <row height="0.5"> -->
     <key width="1.5" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
     <key width="1.1" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
