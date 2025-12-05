@@ -128,7 +128,7 @@ Useful links.
     <key width="0.5" key0="config" sw=""/>
     <key width="0.75" key0="-" ne="+" />
     <!-- <key width="0.5" key0="loc compose" /> -->
-    <key width="0.75" key0="`" sw="?" se="!"/>
+    <key width="0.75" key0="`" sw="?" se="!" ne="*" />
     <key width="0.75" key0=":" sw=""/>
     <key width="0.75" key0=";" ne=":"/>
     <key width="0.75" key0="{┊}:'{}',left" ne="{}┊:'{}'" sw="" se=""/>
