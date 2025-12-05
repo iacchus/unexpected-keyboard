@@ -46,8 +46,8 @@ Useful links.
   https://github.com/Julow/Unexpected-Keyboard/blob/master/doc/Custom-layouts.md
 -->
 <keyboard name="QWERTY (iacchUS)" script="latin" embedded_number_row="true" bottom_row="false">
-  <row height="1">
-  <!-- <row height="0.75"> -->
+  <!-- <row height="1"> -->
+  <row height="0.75">
   <!-- <row height="0.5"> -->
     <key width="0.833333" key0="f1"/>
     <key width="0.833333" key0="f2"/>
@@ -82,7 +82,7 @@ Useful links.
     <key width="1.5" c="tab" se="loc esc"/>
     <key width="0.85" c="q" sw="[q]:esc,':q',enter"/>
     <key width="0.85" c="w" ne="~" sw="[w]:esc,':w',enter"/>
-    <key width="0.85" c="e" nw="è" ne="!" sw="ê" se="ĕ"/>
+    <key width="0.85" c="e" nw="è" ne="é" sw="ê" se="ĕ"/>
     <key width="0.85" c="r" nw="ṝ" se="ṛ"/>
     <key width="0.85" c="t" se="ṭ" />
     <key width="0.85" c="y"/>
@@ -140,32 +140,32 @@ Useful links.
   <!-- <row height="0.75"> -->
   <!-- <row height="0.5"> -->
     <key width="0.5" key0="redo" sw=""/>
-    <key key0="🐧:meta"/>
+    <key width="1" key0="🐧:meta"/>
     <key width="0.75" key0="/" ne="\\" sw="|" />
-    <key width="0.75" key0="" sw=""/>
-    <key width="0.75" key0="" sw=""/>
-    <key width="0.75" key0="," se=""/>
-    <key width="0.75" key0="." se=""/>
+    <key width="0.75" key0="Ｃ－ｃ:ctrl,c" sw=""/>
+    <key width="0.75" key0="ｏｖｒｗ:selectAll,paste" sw=""/>
+    <key width="0.5" key0="," se=""/>
+    <key width="0.5" key0="." se=""/>
     <key width="0.75" key0="&quot;┊&quot;:&quot;,&quot;,left" ne="&quot;" sw="“┊”:“”,left" />
     <key width="0.75" key0="&apos;┊&apos;:\'\',left" ne="&apos;" sw="`┊`:``,left" nw="`"/>
     <key width="0.75" key0="home"/>
     <key width="0.75" key0="up" ne="loc page_up"/>
     <key width="0.75" key0="end" ne="⇲_:end,space"/>
-    <key width="0.5" key0="cut" sw=""/>
-    <key width="0.5" key0="paste" sw="ｐｓｔ"/>
+    <key width="0.75" key0="cut" sw=""/>
+    <key width="0.75" key0="paste" sw="ｐｓｔ"/>
   </row>
   <row height="1">
   <!-- <row height="0.75"> -->
   <!-- <row height="0.5"> -->
-    <key width="1.5" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
-    <key width="1.1" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
+    <key width="1.25" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
+    <key width="0.85" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
     <key width="1" key0="alt" sw=""/>
     <key width="3.15" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right"/>
     <key width="0.75" key0="left" sw=""/>
     <key width="0.75" key0="down" key1="loc home" key3="loc end" ne="loc page_down"/>
     <key width="0.75" key0="right" sw=""/>
-    <key width="0.5" key0="copy" sw="ｃｐｙ"/>
-    <key width="0.5" key0="selectAll" sw=""/>
+    <key width="0.75" key0="copy" sw="ｃｐｙ"/>
+    <key width="0.75" key0="selectAll" sw=""/>
   </row>
   <!--<row height="0.75">
     <key width="1.7" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
