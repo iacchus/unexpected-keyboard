@@ -112,7 +112,7 @@ Useful links.
     <key width="1.5" c="shift" ne="loc capslock"/>
     <key c="z" sw="ｅｘｔ:meta,shift,E"/>
     <key c="x" ne="loc †"/>
-    <key c="c" sw="C-c:ctrl,c"/>
+    <key c="c" sw="C-c:ctrl,c" se="ç" />
     <key c="v" sw=""/>
     <key c="b" ne="\?" sw=""/>
     <key c="n" nw="ṅ" ne="ñ" sw="" se="ṇ" />
@@ -126,7 +126,8 @@ Useful links.
     <key width="0.5" key0="undo" se=""/>
     <key width="0.5" key0="change_method" sw=""/>
     <key width="0.5" key0="config" sw=""/>
-    <key width="0.5" key0="loc compose" />
+    <key width="0.75" key0="-" ne="+" />
+    <!-- <key width="0.5" key0="loc compose" /> -->
     <key width="0.75" key0="`" sw="?" se="!"/>
     <key width="0.75" key0=":" sw=""/>
     <key width="0.75" key0=";" ne=":"/>
@@ -135,7 +136,7 @@ Useful links.
     <key width="0.75" key0="(┊):'()',left" nw="]" ne="()┊:'()'" sw=")" se="}"/>
     <key width="0.75" key0="&lt;" sw=""/>
     <key width="0.75" key0="&gt;" sw=""/>
-    <key width="1" c="delete_word" ne="forward_delete_word"/>
+    <key width="0.75" c="delete_word" ne="forward_delete_word"/>
     <key width="1" c="backspace" ne="delete" sw="xx:backspace,delete"/>
   </row>
   <row height="1">
