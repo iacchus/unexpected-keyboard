@@ -77,13 +77,13 @@ Useful links.
     <key width="1.5" c="tab" se="loc esc"/>
     <key width="0.85" c="q" sw="[q]:esc,':q',enter"/>
     <key width="0.85" c="w" ne="~" sw="[w]:esc,':w',enter"/>
-    <key width="0.85" c="e" nw="è" ne="!" sw="ê" se="loc €"/>
+    <key width="0.85" c="e" nw="è" ne="!" sw="ê" se="ĕ"/>
     <key width="0.85" c="r" nw="ṝ" se="ṛ"/>
     <key width="0.85" c="t" se="ṭ" />
     <key width="0.85" c="y"/>
     <key width="0.85" c="u" nw="ù" ne="ú" sw="ū" />
     <key width="0.85" c="i" nw="ì" ne="í" sw="ī"/>
-    <key width="0.85" c="o" nw="" ne="ó" sw="ô" se="õ" />
+    <key width="0.85" c="o" nw="ö" ne="ó" sw="ŏ" se="õ" />
     <key width="0.85" c="p"/>
   </row>
   <row height="0.75">
