@@ -95,7 +95,7 @@ Useful links.
     <key c="h" ne="=" sw="+"/>
     <key c="j" se="" sw=""/>
     <key c="k" sw="" se=""/>
-    <key c="l" nw="ḹ" ne="|" sw="ḻ" sw="ḷ"/>
+    <key c="l" nw="ḹ" ne="|" sw="ḻ" se="ḷ"/>
   </row>
   <row height="0.75">
     <key width="1.5" c="shift" ne="loc capslock"/>
