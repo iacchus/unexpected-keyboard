@@ -92,7 +92,8 @@ Useful links.
   <row height="1">
   <!-- <row height="0.75"> -->
   <!-- <row height="0.5"> -->
-    <key width="1.5" c="tab" se="loc esc"/>
+    <!-- <key width="1.5" c="tab" se="loc esc"/> -->
+    <key width="1.5" c="tab" se=""/>
     <key width="0.85" c="q" sw="[q]:esc,':q',enter"/>
     <key width="0.85" c="w" ne="~" sw="[w]:esc,':w',enter"/>
     <key width="0.85" c="e" nw="è" ne="é" sw="ê" se="ĕ"/>
