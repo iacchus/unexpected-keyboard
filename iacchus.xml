@@ -81,13 +81,13 @@ Useful links.
     <key width="0.85" c="r"/>
     <key width="0.85" c="t"/>
     <key width="0.85" c="y"/>
-    <key width="0.85" c="u"/>
-    <key width="0.85" c="i"/>
+    <key width="0.85" c="u" sw="ū"/>
+    <key width="0.85" c="i" sw="ī"/>
     <key width="0.85" c="o"/>
     <key width="0.85" c="p"/>
   </row>
   <row height="0.75">
-    <key shift="0.5" c="a" nw="loc tab" ne="`"/>
+    <key shift="0.5" c="a" nw="loc tab" ne="`" sw="ā"/>
     <key c="s" ne="loc §" sw="loc ß"/>
     <key c="d" sw="C-d:ctrl,d"/>
     <key c="f"/>
@@ -95,7 +95,7 @@ Useful links.
     <key c="h" ne="=" sw="+"/>
     <key c="j" se="" sw=""/>
     <key c="k" sw="" se=""/>
-    <key c="l" ne="|" sw=""/>
+    <key c="l" nw="ḹ" ne="|" sw="ḻ" sw="ḷ"/>
   </row>
   <row height="0.75">
     <key width="1.5" c="shift" ne="loc capslock"/>
