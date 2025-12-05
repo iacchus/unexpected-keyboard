@@ -78,8 +78,8 @@ Useful links.
     <key width="0.85" c="q" sw="[q]:esc,':q',enter"/>
     <key width="0.85" c="w" ne="~" sw="[w]:esc,':w',enter"/>
     <key width="0.85" c="e" ne="!" se="loc €"/>
-    <key width="0.85" c="r"/>
-    <key width="0.85" c="t"/>
+    <key width="0.85" c="r" nw="ṝ" se="ṛ"/>
+    <key width="0.85" c="t" se="ṭ" />
     <key width="0.85" c="y"/>
     <key width="0.85" c="u" sw="ū"/>
     <key width="0.85" c="i" sw="ī"/>
@@ -92,7 +92,7 @@ Useful links.
     <key c="d" sw="C-d:ctrl,d"/>
     <key c="f"/>
     <key c="g" ne="-" sw="_"/>
-    <key c="h" ne="=" sw="+"/>
+    <key c="h" ne="=" sw="+" se="ḥ" />
     <key c="j" se="" sw=""/>
     <key c="k" sw="" se=""/>
     <key c="l" nw="ḹ" ne="|" sw="ḻ" se="ḷ"/>
