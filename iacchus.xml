@@ -87,7 +87,7 @@ Useful links.
     <key width="0.85" c="p"/>
   </row>
   <row height="0.75">
-    <key shift="0.5" c="a" nw="loc tab" ne="`" sw="ā"/>
+    <key shift="0.5" c="a" nw="" ne="" sw="ā"/>
     <key c="s" nw="ś" ne="loc §" sw="loc ß" se="ṣ" />
     <key c="d" sw="C-d:ctrl,d" se="ḍ" />
     <key c="f"/>
@@ -115,7 +115,7 @@ Useful links.
     <key width="0.5" key0="change_method" sw=""/>
     <key width="0.5" key0="config" sw=""/>
     <key width="0.5" key0="loc compose" se="!"/>
-    <key width="0.75" key0="" sw=""/>
+    <key width="0.75" key0="`" sw=""/>
     <key width="0.75" key0=":" sw=""/>
     <key width="0.75" key0=";" ne=":"/>
     <key width="0.75" key0="{┊}:'{}',left" ne="{}┊:'{}'" sw="" se=""/>
