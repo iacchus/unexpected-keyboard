@@ -81,13 +81,13 @@ Useful links.
     <key width="0.85" c="r" nw="ṝ" se="ṛ"/>
     <key width="0.85" c="t" se="ṭ" />
     <key width="0.85" c="y"/>
-    <key width="0.85" c="u" sw="ū"/>
+    <key width="0.85" c="u" nw="ù" ne="ú" sw="ū" />
     <key width="0.85" c="i" sw="ī"/>
     <key width="0.85" c="o"/>
     <key width="0.85" c="p"/>
   </row>
   <row height="0.75">
-    <key shift="0.5" c="a" nw="" ne="" sw="ā"/>
+    <key shift="0.5" c="a" nw="à" ne="á" sw="ā" se="ã" />
     <key c="s" nw="ś" ne="loc §" sw="loc ß" se="ṣ" />
     <key c="d" sw="C-d:ctrl,d" se="ḍ" />
     <key c="f"/>
@@ -95,7 +95,7 @@ Useful links.
     <key c="h" ne="=" sw="+" se="ḥ" />
     <key c="j" se="" sw=""/>
     <key c="k" sw="" se=""/>
-    <key c="l" nw="ḹ" ne="|" sw="ḻ" se="ḷ"/>
+    <key c="l" nw="ḹ" ne="" sw="ḻ" se="ḷ"/>
   </row>
   <row height="0.75">
     <key width="1.5" c="shift" ne="loc capslock"/>
@@ -130,7 +130,7 @@ Useful links.
   <row height="0.5">
     <key width="0.5" key0="redo" sw=""/>
     <key key0="🐧:meta"/>
-    <key width="0.75" key0="/" ne="\\"/>
+    <key width="0.75" key0="/" ne="\\" sw="|" />
     <key width="0.75" key0="" sw=""/>
     <key width="0.75" key0="" sw=""/>
     <key width="0.75" key0="," se=""/>
