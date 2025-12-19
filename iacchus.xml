@@ -91,8 +91,8 @@ Useful links.
     <key c="s" nw="ś" ne="loc §" sw="loc ß" se="ṣ" />
     <key c="d" sw="C-d:ctrl,d" se="ḍ" />
     <key c="f"/>
-    <key c="g" ne="-" sw="_"/>
-    <key c="h" ne="=" sw="+" se="ḥ" />
+    <key c="g" ne="" sw=""/>
+    <key c="h" ne="" sw="" se="ḥ" />
     <key c="j" se="" sw=""/>
     <key c="k" sw="" se=""/>
     <key c="l" nw="ḹ" ne="" sw="ḻ" se="ḷ"/>
@@ -113,9 +113,9 @@ Useful links.
     <key width="0.5" key0="change_method" sw=""/>
     <key width="0.5" key0="config" sw=""/>
     <key width="0.75" key0="-" nw="–" ne="+" sw="_" se="—" />
-    <key width="0.75" key0="`" nw="*" ne="=" sw="?" se="!" />
-    <key width="0.75" key0=":" sw=""/>
-    <key width="0.75" key0=";" ne=":"/>
+    <key width="0.75" key0="=" nw="*" ne="=_:=,space" sw="" se="" />
+    <key width="0.75" key0=":" ne="!" sw=""/>
+    <key width="0.75" key0=";" ne="?"/>
     <key width="0.75" key0="{┊}:'{}',left" nw="" ne="{}┊:'{}'" sw="{" se="}"/>
     <key width="0.75" key0="[┊]:'[]',left" nw="" ne="[]┊:'[]'" sw="[" se="]"/>
     <key width="0.75" key0="(┊):'()',left" nw="" ne="()┊:'()'" sw="(" se=")"/>
@@ -127,7 +127,7 @@ Useful links.
   <row height="1">
     <key width="0.5" key0="redo" sw=""/>
     <key width="1" key0="🐧:meta"/>
-    <key width="0.75" key0="/" ne="\\" sw="|" />
+    <key width="0.75" key0="/" nw="~" ne="\\" sw="|" />
     <key width="0.75" key0="Ｃ－ｃ:ctrl,c" sw=""/>
     <key width="0.75" key0="ｏｖｒｗ:selectAll,paste" sw=""/>
     <key width="0.5" key0="," se=""/>
