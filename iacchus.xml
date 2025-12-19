@@ -46,9 +46,7 @@ Useful links.
   https://github.com/Julow/Unexpected-Keyboard/blob/master/doc/Custom-layouts.md
 -->
 <keyboard name="QWERTY (iacchus)" script="latin" embedded_number_row="true" bottom_row="false">
-  <!-- <row height="1"> -->
   <row height="0.75">
-  <!-- <row height="0.5"> -->
     <key width="0.76923" key0="esc"/>
     <key width="0.76923" key0="f1"/>
     <key width="0.76923" key0="f2"/>
@@ -64,8 +62,6 @@ Useful links.
     <key width="0.76923" key0="f12"/>
   </row>
   <row height="1">
-  <!-- <row height="0.75"> -->
-  <!-- <row height="0.5"> -->
     <key key0="1" ne="!"/>
     <key key0="2" ne="@"/>
     <key key0="3" ne="#"/>
@@ -78,9 +74,6 @@ Useful links.
     <key key0="0" ne=")"/>
   </row>
   <row height="1">
-  <!-- <row height="0.75"> -->
-  <!-- <row height="0.5"> -->
-    <!-- <key width="1.5" c="tab" se="loc esc"/> -->
     <key width="1.5" c="tab" se=""/>
     <key width="0.85" c="q" sw="[q]:esc,':q',enter"/>
     <key width="0.85" c="w" ne="~" sw="[w]:esc,':w',enter"/>
@@ -94,8 +87,6 @@ Useful links.
     <key width="0.85" c="p"/>
   </row>
   <row height="1">
-  <!-- <row height="0.75"> -->
-  <!-- <row height="0.5"> -->
     <key shift="0.5" c="a" nw="à" ne="á" sw="ā" se="ã" />
     <key c="s" nw="ś" ne="loc §" sw="loc ß" se="ṣ" />
     <key c="d" sw="C-d:ctrl,d" se="ḍ" />
@@ -107,8 +98,6 @@ Useful links.
     <key c="l" nw="ḹ" ne="" sw="ḻ" se="ḷ"/>
   </row>
   <row height="1">
-  <!-- <row height="0.75"> -->
-  <!-- <row height="0.5"> -->
     <key width="1.5" c="shift" ne="loc capslock"/>
     <key c="z" sw="ｅｘｔ:meta,shift,E"/>
     <key c="x" ne="loc †"/>
@@ -117,31 +106,25 @@ Useful links.
     <key c="b" ne="\?" sw=""/>
     <key c="n" nw="ṅ" ne="ñ" sw="" se="ṇ" />
     <key c="m" nw="ṁ" ne="&quot;" sw="'" se="m̐"/>
-    <!-- <key width="1.5" c="backspace" ne="delete"/> -->
     <key width="1.5" key0="enter" key1="loc voice_typing" key2="action"/>
   </row>
   <row height="1">
-  <!-- <row height="0.75"> -->
-  <!-- <row height="0.5"> -->
     <key width="0.5" key0="undo" se=""/>
     <key width="0.5" key0="change_method" sw=""/>
     <key width="0.5" key0="config" sw=""/>
     <key width="0.75" key0="-" nw="–" ne="+" sw="_" se="—" />
-    <!-- <key width="0.5" key0="loc compose" /> -->
     <key width="0.75" key0="`" nw="*" ne="=" sw="?" se="!" />
     <key width="0.75" key0=":" sw=""/>
     <key width="0.75" key0=";" ne=":"/>
-    <key width="0.75" key0="{┊}:'{}',left" ne="{}┊:'{}'" sw="" se=""/>
-    <key width="0.75" key0="[┊]:'[]',left" nw="[" ne="[]┊:'[]'" sw="(" se="{"/>
-    <key width="0.75" key0="(┊):'()',left" nw="]" ne="()┊:'()'" sw=")" se="}"/>
+    <key width="0.75" key0="{┊}:'{}',left" nw="" ne="{}┊:'{}'" sw="{" se="}"/>
+    <key width="0.75" key0="[┊]:'[]',left" nw="" ne="[]┊:'[]'" sw="[" se="]"/>
+    <key width="0.75" key0="(┊):'()',left" nw="" ne="()┊:'()'" sw="(" se=")"/>
     <key width="0.75" key0="&lt;" sw=""/>
     <key width="0.75" key0="&gt;" sw=""/>
     <key width="0.75" c="delete_word" ne="forward_delete_word"/>
     <key width="1" c="backspace" ne="delete" sw="xx:backspace,delete"/>
   </row>
   <row height="1">
-  <!-- <row height="0.75"> -->
-  <!-- <row height="0.5"> -->
     <key width="0.5" key0="redo" sw=""/>
     <key width="1" key0="🐧:meta"/>
     <key width="0.75" key0="/" ne="\\" sw="|" />
@@ -158,8 +141,6 @@ Useful links.
     <key width="0.75" key0="paste" sw="ｐｓｔ"/>
   </row>
   <row height="1">
-  <!-- <row height="0.75"> -->
-  <!-- <row height="0.5"> -->
     <key width="1.25" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
     <key width="0.85" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
     <key width="1" key0="alt" sw=""/>
@@ -170,11 +151,4 @@ Useful links.
     <key width="0.75" key0="copy" sw="ｃｐｙ"/>
     <key width="0.75" key0="selectAll" sw=""/>
   </row>
-  <!--<row height="0.75">
-    <key width="1.7" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
-    <key width="1.1" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
-    <key width="4.4" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right"/>
-    <key width="1.1" key0="loc compose" key7="up" key6="right" key5="left" key8="down" key1="loc home" key2="loc page_up" key3="loc end" key4="loc page_down"/>
-    <key width="1.7" key0="enter" key1="loc voice_typing" key2="action"/>
-  </row>-->
 </keyboard>
